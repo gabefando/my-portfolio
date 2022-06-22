@@ -46,3 +46,43 @@ nav ul li a:hover {
     color: black;
 }
 
+main {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 75px;
+}
+
+#about h3 {
+    text-align: center;
+}
+
+#about p, img {
+}
+
+#about p {
+    padding-top: 10px;
+    padding-left: 250px;
+}
+
+#about img {
+    height: auto;
+    width: 200px;
+    border: #192841 solid 5px;
+    border-radius: 10px;
+    float: left;
+}
+
+#projects {
+    margin-top: 125px;
+    text-align: center;
+}
+
+#project1 {
+    margin-top: 30px;
+    border: #192841 solid;
+    border-radius: 10px;
+    height: 350px;
+    width: 750px;
+    background-color: lightgray;
+    float: right;
+}
