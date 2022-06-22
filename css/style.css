@@ -169,7 +169,7 @@ main {
 
 .contact ul {
     margin-top: 60px;
-    margin-left: 500px;
+    margin-left: 470px;
     width: 350px;
     display: flex;
     flex-direction: column;
@@ -188,4 +188,12 @@ main {
 .contact ul li:hover {
     background-color: white;
     color: black;
+}
+
+footer {
+    padding: 1px;
+    text-align: center;
+    color: white;
+    background: #192841;
+    font-size: 24px;
 }
