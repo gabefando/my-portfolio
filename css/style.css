@@ -118,10 +118,47 @@ main {
 
 .project2p {
     padding-top: 60px;
-    margin-right: 755px;
-    margin-left: 370px;
+    /* padding-right: 755px; */
+    padding-left: 370px; 
+}
+
+.project2ul {
+    padding-left: 400px;
+    padding-top: 10px;
 }
 
 .project2:hover {
+    box-shadow: inset 0 0 100px #000000;
+}
+
+/* #p2 {
+
+} */
+
+.project3 {
+    margin-top: 60px;
+    border: #192841 solid;
+    border-radius: 10px;
+    background-image: url(/images/forex.jpg);
+    height: 350px;
+    width: 350px;
+    color: white;
+    text-shadow: 2px 2px 8px #000000;
+    text-align: center;
+    float: right;
+}
+
+.project3p {
+    padding-top: 70px;
+    margin-right: 25px;
+    /* margin-left: 370px; */
+}
+
+.project3ul {
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.project3:hover {
     box-shadow: inset 0 0 100px #000000;
 }
