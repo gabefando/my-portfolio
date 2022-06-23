@@ -254,4 +254,18 @@ footer {
     .project3 h4 {
         font-size: 25px;
     }
+
+    .contact ul {
+        margin-top: 60px;
+        margin-left: 50px;
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        line-height: 3;
+        background-color: lightgray;
+        font-size: 30px;
+        border: #192841 solid;
+        border-radius: 10px;
+    }
 }
