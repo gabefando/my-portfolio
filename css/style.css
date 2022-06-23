@@ -55,9 +55,6 @@ main {
     text-align: center;
 }
 
-#about p, img {
-}
-
 #about p {
     padding-top: 10px;
     padding-left: 250px;
@@ -196,4 +193,24 @@ footer {
     color: white;
     background: #192841;
     font-size: 24px;
+}
+
+@media screen and (min-width: 480px) {
+    nav ul li {
+        display: inline;
+        font-size: 50px;
+    }
+
+    #about img {
+        height: auto;
+        width: 600px;
+        border: #192841 solid 5px;
+        border-radius: 10px;
+        margin-left: 50px;
+    }
+
+    #about p {
+        padding-top: 10px;
+        padding-left: 0;
+    }
 }
